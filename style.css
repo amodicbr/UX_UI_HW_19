@@ -1,0 +1,157 @@
+nav{
+    background-color: #9D135D ;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+ul{
+    display:flex;
+    align-content: flex-start;
+    padding-left: 5%;
+}
+
+li{
+    display: flex;
+    align-items:flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+body{
+    background-color: #081151 ;
+}
+
+hr {
+    color:#e555a2;
+}
+
+.containerGrid{
+    color:aliceblue;
+    font-style: italic;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:grid;
+    align-items:flex-end;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "topRow topRow topRow"
+        "leftSidebar rightContent"
+        ;
+    
+}
+
+.topRow{
+    font-weight: bold;
+    color:rgb(97, 159, 244);
+    align-items: center;
+    grid-column: 4/6;
+    grid-row: 1;
+    padding: 0;
+    margin: none;
+
+}
+
+.leftSidebar{
+    font-weight:800px;
+    color:rgb(86, 93, 230);
+    grid-column: 3/6;
+    grid-row: 2;
+    padding-left: 50px;
+
+}
+
+.rightContent{
+    font-size: larger;
+    font-weight: 900;
+    grid-column: 6;
+    grid-row: 1;
+    padding-right: 10px;
+}
+
+#logo{
+    display:flex;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+#about-me, #resume, #mywork{
+    align-items: flex-start;
+    justify-content: center;
+}
+
+ul{
+    padding-left: 300px;
+}
+
+
+.CSA{
+    color:aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+
+}
+
+
+.blurb{
+    color:aliceblue;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 80px;
+    width: 200px;
+    background-color: #e555a2;
+    color:aliceblue;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+.foot{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.footer{
+    font-size: 24px;
+    margin: 10px;
+    padding-top: 20px;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social{
+    margin: 10px;
+}
+
+p.contact{
+    padding-left: 200px;
+    font-size: 24px;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
