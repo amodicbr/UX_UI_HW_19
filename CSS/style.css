@@ -79,6 +79,10 @@ div .containerGrid{
     grid-area: rightContent;
 }
 
+/*.rotate{
+    transform: rotate(90deg);
+}*/
+
 #logo{
     display:flex;
     align-items: flex-end;
@@ -450,5 +454,10 @@ p{
     margin: auto;
     padding: 0;
 }
+
+/* USE CSS TO CALL THE KEY FRAME ROTATE.
+IT WOULD ADD CLASS TO OBJECT WHEN HOVERED
+Javascript would be used to detect click event.
+
 
 

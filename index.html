@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anna ModicBradley's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
 
@@ -13,9 +13,9 @@
         <div class="inline-block" class="logo">
             <nav class="inline-block">
                 <ul>
-                    <li class="navlist">ABOUT ME <img id="about-me" src="Images HW:17/About Me.png" alt="This button takes you to my about me page."></li>
-                    <li class="navlist">RESUME <img id="resume" src="Images HW:17/Resume.png" alt="This button takes you to my resume and CV."></li>
-                    <li class="navlist">MY WORK<img id="mywork" src="Images HW:17/My Work.png" alt="This button takes you to my work."></li>
+                    <li class="navlist">ABOUT ME <img class = "rotate" id="about-me" onMouseOver = "rotateImg()" onMouseOut = "resetPic()" src="Images HW:17/About Me.png" alt="This button takes you to my about me page."></li>
+                    <li class="navlist">RESUME <img class = "rotate" id="resume" onMouseOver = "rotateImg()"  onMouseOut = "resetPic()" src="Images HW:17/Resume.png" alt="This button takes you to my resume and CV."></li>
+                    <li class="navlist">MY WORK<img class = "rotate" id="mywork" onMouseOver = "rotateImg()" onMouseOut = "resetPic()" src="Images HW:17/My Work.png" alt="This button takes you to my work."></li>
                 </ul>
             </nav>
         </div>
@@ -100,6 +100,7 @@
             <li class="footer"><img class="social" src="Images HW:17/Vector.png" alt="My tiktok handle"/> @annammmakes_</li>
         </ul>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 
 
