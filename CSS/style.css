@@ -79,9 +79,9 @@ div .containerGrid{
     grid-area: rightContent;
 }
 
-/*.rotate{
+.rotate{
     transform: rotate(90deg);
-}*/
+}
 
 #logo{
     display:flex;
