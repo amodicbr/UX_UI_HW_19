@@ -9,16 +9,22 @@
 //END PSUEDO CODE
 
 //ADDING ROTATE CLASS ON MOUSENTER
-
 const aboutMe = document.querySelector('#aboutMe');
 //VARIABLE IS WHAT YOU'RE TARGETTING. 
-
 addEventListener('click', () => {
     aboutMe.classList.add('rotate');
 });
 //Function is what you want the thing to do. 
 
+const resume = document.querySelector('#resume');
+addEventListener('click', () => {
+    resume.classList.add('rotate');
+});
 
+const myWork = document.querySelector('#myWork');
+addEventListener('click', () => {
+    myWork.classList.add('rotate');
+});
 
 //Hi Anna here are some of my CODE ATTEMPTs 
 /* function addClass(){
